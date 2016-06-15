@@ -1,0 +1,29 @@
+{
+  "name": "debugmode",
+  "description": "Sometimes you just need to work in debugmode",
+  "main": "debugmode.js",
+  "authors": [
+    "Richard Japenga"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "debugging",
+    "dom",
+    "box",
+    "model"
+  ],
+  "homepage": "https://github.com/richardj/debugmode",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.6"
+  },
+  "dependencies": {
+    "angular-cookies": "^1.5.7"
+  }
+}
