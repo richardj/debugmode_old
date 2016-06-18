@@ -5,7 +5,7 @@
     <link href="demo.css" rel='stylesheet' type='text/css' />
 
     <style>
-      .debug-mode * {
+      .debugmode * {
         outline: 1px solid red !important;
       }
     </style>
@@ -19,6 +19,8 @@
 
       <button debug-mode> toggle debug mode</button>
 
+      <button class="debugmode-trigger">Toggle debug mode Javascript</button>
+
       <p>
         Debug mode is 
         <span>On</span>
@@ -28,5 +30,6 @@
     <script src="../bower_components/angular/angular.min.js"></script>
     <script src="../bower_components/angular-cookies/angular-cookies.min.js"></script>
     <script src="../debugmode-angular.js"></script>
+    <script src="../debugmode.js"></script>
   </body>
 </html>
