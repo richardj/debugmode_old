@@ -3,6 +3,12 @@
   <head>
     <meta charset='utf-8'>
     <link href="demo.css" rel='stylesheet' type='text/css' />
+
+    <style>
+      .debug-mode * {
+        outline: 1px solid red !important;
+      }
+    </style>
   </head>
   <body 
     ng-app="app.debugmode"
@@ -10,6 +16,13 @@
   >
     <div class="layout-wrapper">
       <h1 debug-mode>debugmode.js</h1>
+
+      <button debug-mode> toggle debug mode</button>
+
+      <p>
+        Debug mode is 
+        <span>On</span>
+        <span>Off</span>
     </div>
 
     <script src="../bower_components/angular/angular.min.js"></script>
