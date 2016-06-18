@@ -12,7 +12,7 @@ gulp.task('compress', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('debugmode-angular.js', ['compress']);
+  gulp.watch('debugmode.js', ['compress']);
 });
 
 gulp.task('default', ['watch']);
