@@ -9,27 +9,17 @@
         outline: 1px solid red !important;
       }
     </style>
+
   </head>
-  <body 
-    ng-app="app.debugmode"
-    set-debug-mode 
-  >
+
+  <body>
     <div class="layout-wrapper">
       <h1 debug-mode>debugmode.js</h1>
 
-      <button debug-mode> toggle debug mode</button>
-
-      <button class="debugmode-trigger">Toggle debug mode Javascript</button>
-
-      <p>
-        Debug mode is 
-        <span>On</span>
-        <span>Off</span>
+      <button class="debugmode-trigger">Toggle debug mode (class)</button>
+      <button debugmode-trigger>Toggle debug mode (data attribute)</button>
     </div>
 
-    <script src="../bower_components/angular/angular.min.js"></script>
-    <script src="../bower_components/angular-cookies/angular-cookies.min.js"></script>
-    <script src="../debugmode-angular.js"></script>
     <script src="../debugmode.js"></script>
   </body>
 </html>
