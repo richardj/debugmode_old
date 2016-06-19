@@ -1,3 +1,11 @@
+/* colours
+ * light grey: #f6f6f6
+ * whool white: #e8e8e8
+ * dark grey: #333
+ * deep red: #990100
+ * bright red: #b90504
+*/
+
 @font-face {
     font-family: 'redactedregular';
     src: url('font/redacted-regular.eot');
@@ -49,10 +57,17 @@ body.debugmode {
 
 .debugmode * {
   border-color: transparent;
-  outline: 1px solid red !important;
+  outline: 1px solid red;
 }
 
+.debugmode img,
+.debugmode input,
+.debugmode textarea {
+  visibility: hidden;
+}
+/*
 .debugmode input,
 .debugmode textarea {
   font-family: 'redactedregular';
 }
+*/
