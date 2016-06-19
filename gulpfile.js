@@ -12,24 +12,9 @@ gulp.task('compress', function() {
 });
 
 
-
-/* Redacted Font tasks */
-gulp.task('redactedFont', function() {
-  return gulp.src('./bower_components/Redacted-Font/fonts/web/redacted-regular.*')
-  .pipe(gulp.dest('./dist/font/'))
-});
-
-/* set up demo */
-gulp.task('demoFonts', function() {
-  return gulp.src('./bower_components/Redacted-Font/fonts/web/redacted-regular.*')
-  .pipe(gulp.dest('./demo/font/'))
-});
-
 /* watch functions */
 gulp.task('watch', function() {
   gulp.watch('debugmode.js', ['compress']);
 });
 
 gulp.task('default', ['watch']);
-gulp.task('redacted', ['redactedFont', 'redactedStyles']);
-gulp.task('demo', ['demoFonts']);
