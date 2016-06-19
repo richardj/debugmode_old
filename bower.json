@@ -19,8 +19,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "Redacted-Font": "git@github.com:richardj/Redacted-Font.git#old-sources"
-  }
+  ]
 }
