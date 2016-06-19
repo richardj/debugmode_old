@@ -11,6 +11,8 @@ gulp.task('compress', function() {
   .pipe(gulp.dest('dist'));
 });
 
+
+/* watch functions */
 gulp.task('watch', function() {
   gulp.watch('debugmode.js', ['compress']);
 });
