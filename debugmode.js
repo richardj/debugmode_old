@@ -3,7 +3,7 @@
 
   var debugMode = function() {
     var ref = 'debugmode';
-    var triggers = document.querySelectorAll('.debugmode-trigger, [debugmode-trigger]');
+    var triggers = document.querySelectorAll('.debugmode-trigger, [debugmode-trigger], [data-debugmode]');
     
     // no triggers, don't do a thing
     if (triggers.length == 0) {
