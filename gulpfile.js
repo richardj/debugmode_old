@@ -27,7 +27,7 @@ gulp.task('demoFonts', function() {
 
 /* watch functions */
 gulp.task('watch', function() {
-  gulp.watch('debugmode.js', ['compress', 'generateDemo']);
+  gulp.watch('debugmode.js', ['compress']);
 });
 
 gulp.task('default', ['watch']);
