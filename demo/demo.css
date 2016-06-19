@@ -42,41 +42,17 @@ button {
 
 /* preview */
 body.debugmode {
-  font-family: 'redactedregular';
-  font-size: 110%;
-  letter-spacing: 130%;
+  /*font-family: 'redactedregular';*/
+  /*font-size: 110%;
+  letter-spacing: 130%;*/
 }
 
-* {
+.debugmode * {
   border-color: transparent;
   outline: 1px solid red !important;
 }
 
-/*
-.debugmode .preview p {
-  color: transparent;
-  display: inline;
-  -webkit-box-decoration-break: clone;
-  -o-box-decoration-break: clone;
-  box-decoration-break: clone;
-  background: lightgrey;
-}
-*/
-/*
-.debugmode .preview img {
-  border: 1px solid blue;
-  visibility: hidden;
-  background: grey;
-}
-*/
-
-img:after {
-  content: '';
-  width: 100px;
-  height: 100px;
-  top: 0;
-  position: absolute;
-  display: block;
-  z-index: 2;
-  background: red;
+.debugmode input,
+.debugmode textarea {
+  font-family: 'redactedregular';
 }
