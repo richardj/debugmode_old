@@ -54,7 +54,7 @@
       
       overlay.style.width = rec.width + 'px';
       overlay.style.height = rec.height + 'px';
-      overlay.style.top = rec.top + 'px';
+      overlay.style.top = (rec.top + window.scrollY) + 'px';
       overlay.style.left = rec.left + 'px';
       overlay.style.backgroundColor = '#333';
       overlay.style.outline = '0';
